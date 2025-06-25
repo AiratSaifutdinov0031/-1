@@ -1,0 +1,27 @@
+1.Распакуй архив danetki-project.zip в удобное место (например, на Рабочий стол).
+
+2.Открой эту папку в Visual Studio Code.
+
+3.Открой встроенный терминал (Ctrl + `).
+
+4.Выполни команду для установки библиотек: npm install
+
+
+node server.js -- после этой команды должно быть такое:
+Server running on port 3000
+MongoDB connected
+No danetki found, seeding database...
+Danetki seeded.
+Admin user not found, creating one...
+Admin user created. Email: admin@danetki.local, Password: admin123
+
+Не закрывай это окно терминала.
+
+админка:
+
+Email (логин): admin@danetki.local
+
+Пароль: admin123
+
+команда, чтобы определить директорию, просто замените своим, если неправильно видет vs code:
+cd "D:\Рабочий стол\danetki-project"

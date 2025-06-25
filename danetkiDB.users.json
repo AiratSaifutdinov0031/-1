@@ -1,0 +1,10 @@
+[{
+  "_id": {
+    "$oid": "6845953e62569de24f45dcd6"
+  },
+  "name": "Администратор",
+  "email": "admin@danetki.local",
+  "password": "$2b$10$KqRVgpIr.LPTxQXqiIUD0euuWUa2J0SgSXpaFpahOTqlhzmey8yFi",
+  "role": "admin",
+  "solvedDanetki": []
+}]

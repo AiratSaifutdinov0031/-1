@@ -1,0 +1,27 @@
+<!-- login.html -->
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Вход в аккаунт</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body id="login-page">
+    <div class="form-container auth-form">
+        <h2>Вход в аккаунт</h2>
+        <div id="message-container"></div>
+        <form id="login-form">
+            <div class="form-group">
+                <input type="email" id="email" name="email" placeholder="ВВЕДИТЕ ПОЧТУ" required>
+            </div>
+            <div class="form-group">
+                <input type="password" id="password" name="password" placeholder="ВВЕДИТЕ ПАРОЛЬ" required>
+            </div>
+            <button type="submit" class="form-btn">Войти</button>
+        </form>
+        <p style="margin-top: 1rem;">Нет аккаунта? <a href="register.html" style="color: var(--accent-orange);">Зарегистрируйтесь</a></p>
+    </div>
+    <script src="js/main.js"></script>
+</body>
+</html>

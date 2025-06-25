@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Данетки - Предложить данетку</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body id="suggestions-page">
+    <header class="site-header">
+        <div class="header-container">
+            <div class="logo"><a href="index.html"><span>Danet</span><span>kin</span></a></div>
+            <nav class="main-nav">
+                <ul>
+                    <li><a href="index.html">Главная</a></li>
+                    <li><a href="rules.html">Правила</a></li>
+                    <li><a href="catalog.html">Каталог</a></li>
+                    <li><a href="reviews.html">Отзывы</a></li>
+                </ul>
+            </nav>
+            <nav class="auth-nav"><ul id="auth-nav"></ul></nav>
+        </div>
+    </header>
+    <main class="container">
+        <div class="form-container">
+            <h1 class="section-title">Предложить свою данетку</h1>
+            <p style="text-align: center; margin-bottom: 2rem;">Ваше предложение будет отправлено на модерацию. После одобрения оно появится в общем каталоге.</p>
+            <div id="message-container"></div>
+            <form id="suggestion-form">
+                <div class="form-group">
+                    <label for="title">Название данетки</label>
+                    <input type="text" id="title" name="title" required>
+                </div>
+                <div class="form-group">
+                    <label for="category">Категория</label>
+                    <select id="category" name="category" required>
+                        <option value="Легкие">Легкие</option>
+                        <option value="Сложные">Сложные</option>
+                        <option value="Детские">Детские</option>
+                        <option value="Короткие">Короткие</option>
+                        <option value="Смешные">Смешные</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="question">Текст загадки</label>
+                    <textarea id="question" name="question" required></textarea>
+                </div>
+                <div class="form-group">
+                    <label for="answer">Ответ</label>
+                    <textarea id="answer" name="answer" required></textarea>
+                </div>
+                <button type="submit" class="form-btn">Отправить на модерацию</button>
+            </form>
+        </div>
+    </main>
+    <footer class="site-footer">
+        <div class="footer-container">
+            <div class="footer-info"><p>Данеткин 2025</p><p>Разработано Сайфутдиновым Айратом</p></div>
+            <div class="footer-legal"><p>Все права защищены</p></div>
+            <div class="footer-user"><p>Информация для пользователей</p></div>
+        </div>
+    </footer>
+    <script src="js/main.js"></script>
+</body>
+</html>

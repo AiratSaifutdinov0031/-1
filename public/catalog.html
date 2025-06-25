@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Данетки - Каталог</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body id="catalog-page">
+    <header class="site-header">
+        <div class="header-container">
+            <div class="logo"><a href="index.html"><span>Danet</span><span>kin</span></a></div>
+            <nav class="main-nav">
+                <ul>
+                    <li><a href="index.html">Главная</a></li>
+                    <li><a href="rules.html">Правила</a></li>
+                    <li><a href="catalog.html">Каталог</a></li>
+                    <li><a href="reviews.html">Отзывы</a></li>
+                </ul>
+            </nav>
+            <nav class="auth-nav"><ul id="auth-nav"></ul></nav>
+        </div>
+    </header>
+    <main class="container">
+        <h1 class="section-title">Каталог Данеток</h1>
+        <div class="filter-container">
+            <button class="filter-btn active" data-category="all">Все</button>
+            <button class="filter-btn" data-category="Легкие">Легкие</button>
+            <button class="filter-btn" data-category="Сложные">Сложные</button>
+            <button class="filter-btn" data-category="Детские">Детские</button>
+            <button class="filter-btn" data-category="Короткие">Короткие</button>
+            <button class="filter-btn" data-category="Смешные">Смешные</button>
+        </div>
+        <div id="danetki-grid" class="danetki-grid"><p>Загрузка данеток...</p></div>
+    </main>
+    <footer class="site-footer">
+        <div class="footer-container">
+            <div class="footer-info"><p>Данеткин 2025</p><p>Разработано Сайфутдиновым Айратом</p></div>
+            <div class="footer-legal"><p>Все права защищены</p></div>
+            <div class="footer-user"><p>Информация для пользователей</p></div>
+        </div>
+    </footer>
+    <script src="js/main.js"></script>
+</body>
+</html>

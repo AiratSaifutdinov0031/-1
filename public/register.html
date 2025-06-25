@@ -1,0 +1,30 @@
+<!-- register.html -->
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Создание аккаунта</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body id="register-page">
+    <div class="form-container auth-form">
+        <h2>Создание аккаунта</h2>
+        <div id="message-container"></div>
+        <form id="register-form">
+            <div class="form-group">
+                <input type="text" id="name" name="name" placeholder="ВВЕДИТЕ ИМЯ" required>
+            </div>
+            <div class="form-group">
+                <input type="email" id="email" name="email" placeholder="ВВЕДИТЕ ПОЧТУ" required>
+            </div>
+            <div class="form-group">
+                <input type="password" id="password" name="password" placeholder="ВВЕДИТЕ ПАРОЛЬ" required>
+            </div>
+            <button type="submit" class="form-btn">Зарегистрироваться</button>
+        </form>
+        <p style="margin-top: 1rem;">Уже есть аккаунт? <a href="login.html" style="color: var(--accent-orange);">Войдите</a></p>
+    </div>
+    <script src="js/main.js"></script>
+</body>
+</html>
